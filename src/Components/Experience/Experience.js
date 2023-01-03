@@ -6,7 +6,7 @@ import image3 from "../Images/coding.png";
 
 const Experience = () => {
   return (
-    <div className="bg-gradient-to-r from-sky-300 via-purple-300 to-red-300">
+    <div className="bg-gradient-to-r from-sky-400 via-purple-400 to-red-300">
       <section className="container mx-auto pt-1">
         < h2 className="text-3xl font-bold ml-10 mb-5 mt-16" > Working Experience</h2 >
         <div className="grid ml-10 mr-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-0 pb-24">

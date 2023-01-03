@@ -40,7 +40,7 @@ const Header = () => {
           {/* Follow Me Button  */}
           <div className="hidden md:block">
             <p className="mt-10 text-xl font-semibold">Follow me:</p>
-            <button className="mr-1">
+            <button className="mr-3">
               <a
                 target="_blank"
                 href="https://www.facebook.com/iamsarwarshuvo/"
@@ -49,7 +49,7 @@ const Header = () => {
                 <RiFacebookCircleLine size="1.3em" color="blue" />
               </a>
             </button>
-            <button className="mr-1">
+            <button className="mr-3">
               <a
                 target="_blank"
                 href="https://www.instagram.com/sj.shuvo00/"
@@ -58,7 +58,7 @@ const Header = () => {
                 <FaInstagram size="1.3em" color="red" />
               </a>
             </button>
-            <button className="mr-1">
+            <button className="mr-3">
               <a
                 target="_blank"
                 href="https://www.linkedin.com/in/sarwar-shuvo/"
