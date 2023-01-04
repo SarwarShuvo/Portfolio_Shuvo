@@ -7,13 +7,13 @@ const Navbar = () => {
 
 
   return (
-    <section className="bg-pink-50 ">
+    <section className="bg-pink-50 sticky top-0 z-50">
       <nav className="container px-2 sm:px-4 py-2.5 lg:py-0 rounded mx-auto">
         <div onClick={() => setOpen(!open)} className="md:hidden">
           {open ? <IoIosClose className="absolute top-0 right-0 mt-3 w-10 h-10" /> : <FiMenu className="absolute top-0 right-0 mt-3 w-8 h-8" />}
         </div>
         <div className="flex md:justify-center flex-wrap ml-4 items-center lg:justify-between mx-auto">
-          <a href="#home" className="flex items-center">
+          <a href="index.html" className="flex items-center">
             <span className="self-center font-[Oswald] text-3xl font-semibold whitespace-nowrap tracking-widest dark:text-white">
               Sarwar Shuvo
             </span>

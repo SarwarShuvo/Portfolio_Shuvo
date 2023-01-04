@@ -1,6 +1,8 @@
 import React from "react";
 import image from "../Images/1.png";
 import image2 from '../Images/letheio.png'
+import image3 from '../Images/expen.png'
+import image4 from '../Images/protassha.png'
 
 const Projects = () => {
   return (
@@ -99,7 +101,7 @@ const Projects = () => {
               <div>
                 <img
                   class=""
-                  src={image}
+                  src={image3}
                   width="4500"
                   height="308"
                   alt="portfolio website"
@@ -120,7 +122,7 @@ const Projects = () => {
                     </ul>
                   </div>
                   <h3 class="text-2xl lg:text-3xl font-bold leading-tight mb-2">
-                    Portfolio Website
+                  Personal Expense Tracker
                   </h3>
                 </header>
                 <p class="text-lg text-gray-400 flex-grow">
@@ -140,7 +142,7 @@ const Projects = () => {
               <div>
                 <img
                   class=""
-                  src={image}
+                  src={image4}
                   width="4500"
                   height="308"
                   alt="portfolio website"
@@ -161,7 +163,7 @@ const Projects = () => {
                     </ul>
                   </div>
                   <h3 class="text-2xl lg:text-3xl font-bold leading-tight mb-2">
-                    Portfolio Website
+                  Point Of Sale
                   </h3>
                 </header>
                 <p class="text-lg text-gray-400 flex-grow">

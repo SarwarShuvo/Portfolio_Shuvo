@@ -6,7 +6,7 @@ const Education = () => {
         <div className="container mx-auto ">
 
             {/* Headline  */}
-      <h2 className="text-3xl font-bold ml-10 mb-5 pt-16">
+      <h2 className="text-3xl font-bold ml-10 mb-5 pb-10 ">
         Educational Background
       </h2>
 
