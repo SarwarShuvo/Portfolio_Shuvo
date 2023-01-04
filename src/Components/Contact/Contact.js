@@ -4,7 +4,7 @@ const Contact = () => {
     return (
         // <!-- component --> 
 <section id="contact" class="relative w-full min-h-screen bg-[#111827] text-red-500">
-<h1 class="text-4xl text-white p-4 font-bold tracking-wide">
+<h1 class="text-4xl text-white p-4 pl-10 font-bold tracking-wide">
     Contact
 </h1>
 <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-red-800 h-32 w-full"></div>
