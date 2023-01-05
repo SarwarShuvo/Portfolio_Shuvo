@@ -13,7 +13,7 @@ const Header = () => {
   return (
     // Heading Part
     <section id="home" className="container mx-auto">
-      <div className="grid md:grid-cols-2 gap-x-8 justify-items-center mb-20">
+      <div className="grid md:grid-cols-2 gap-x-8 justify-items-center mb-16">
         <div className="ml-8 md:ml-16 mt-12">
           <h1 className="text-4xl font-[Oswald] md:text-6xl lg:leading-relaxed mb-5">
             Hey! I'm{" "}

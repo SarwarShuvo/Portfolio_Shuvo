@@ -6,11 +6,11 @@ const Volunteer = () => {
         <div className="container mx-auto ">
 
             {/* Headline  */}
-      <h2 className="text-3xl font-bold ml-10 mb-5 pt-16 pb-10">
+      <h2 className="text-3xl font-bold ml-10 mb-5 pt-6 pb-12">
         Volunteer
       </h2>
 
-      <div className="grid ml-10 mr-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 pb-24">
+      <div className="grid ml-10 mr-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 pb-12">
 
         {/* School  */}
         <div className="flex flex-col items-center max-w-sm p-12 bg-[#111827] border drop-shadow-lg border-none  shadow-[0px_0px_10px_3px_#D22B2B]">
