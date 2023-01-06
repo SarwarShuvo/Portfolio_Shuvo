@@ -4,7 +4,7 @@ import {
   RiLinkedinBoxLine,
   RiTwitterLine,
 } from "react-icons/ri";
-import { FaInstagram } from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import {fa0,} from '@fortawesome/free-solid-svg-icons';
 import image from "../Images/shuvo.png";
@@ -43,21 +43,22 @@ const Header = () => {
             <button className="mr-3">
               <a
                 target="_blank"
+                href="https://github.com/SarwarShuvo"
+                rel="noreferrer"
+              >
+                <FaGithubSquare size="1.3em" color="b" />
+              </a>
+            </button>
+            <button className="mr-3">
+              <a
+                target="_blank"
                 href="https://www.facebook.com/iamsarwarshuvo/"
                 rel="noreferrer"
               >
                 <RiFacebookCircleLine size="1.3em" color="blue" />
               </a>
             </button>
-            <button className="mr-3">
-              <a
-                target="_blank"
-                href="https://www.instagram.com/sj.shuvo00/"
-                rel="noreferrer"
-              >
-                <FaInstagram size="1.3em" color="red" />
-              </a>
-            </button>
+
             <button className="mr-3">
               <a
                 target="_blank"

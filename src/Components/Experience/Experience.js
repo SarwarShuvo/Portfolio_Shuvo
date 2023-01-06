@@ -6,7 +6,7 @@ import image3 from "../Images/coding.png";
 
 const Experience = () => {
   return (
-    <div className="bg-[#111827] relative text-white">
+    <div id="experience" className="bg-[#111827] relative text-white">
       <section className="container mx-auto pt-1">
         < h2 className="text-3xl font-bold ml-10 mb-5 pt-5 " > Working Experience</h2 >
        
