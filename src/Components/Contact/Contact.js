@@ -1,5 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
     // Form submit Function 
@@ -10,6 +12,7 @@ const sendEmail = (e) => {
     emailjs.sendForm('service_a03kehz', 'template_e4177k8', form.current, 'IVRjuqsbTnzfzoH3e')
       .then((result) => {
           console.log(result.text);
+          toast.success("Massage send successfully!", {position: "top-center"});
       }, (error) => {
           console.log(error.text);
       });
@@ -72,7 +75,7 @@ const sendEmail = (e) => {
                             <label for="name">Name</label>
                             <input
                                 name='name'
-                                type="text" id="name"
+                                type="text" required id="name"
                                 class="px-3 py-2 bg-gray-800 border border-gray-900 focus:border-red-500 focus:outline-none focus:bg-gray-800 focus:text-red-500"
                                 autocomplete="off"
                             />
@@ -81,7 +84,7 @@ const sendEmail = (e) => {
                             <label for="email">Email</label>
                             <input
                                 name='email'
-                                type="text" id="email"
+                                type="text" required id="email"
                                 class="px-3 py-2 bg-gray-800 border border-gray-900 focus:border-red-500 focus:outline-none focus:bg-gray-800 focus:text-red-500"
                                 autocomplete="off"
                             />
@@ -90,7 +93,7 @@ const sendEmail = (e) => {
                             <label for="message">Message</label>
                             <textarea
                                 name='message'
-                                rows="4" id="message"
+                                rows="4" required id="message"
                                 class="px-3 py-2 bg-gray-800 border border-gray-900 focus:border-red-500 focus:outline-none focus:bg-gray-800 focus:text-red-500"
                             ></textarea>
                         </div>
@@ -102,7 +105,9 @@ const sendEmail = (e) => {
                     </div>
                 </form>
             </div>
+            <ToastContainer />
         </section>
+        
     );
 };
 
