@@ -2,7 +2,7 @@ import React from 'react';
 
 const Volunteer = () => {
     return (
-        <section className="bg-[#111827] text-white">
+        <section name="volunteer" className="bg-[#111827] text-white">
         <div className="container mx-auto ">
 
             {/* Headline  */}

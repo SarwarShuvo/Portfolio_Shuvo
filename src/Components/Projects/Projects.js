@@ -6,7 +6,7 @@ import image4 from '../Images/protassha.png'
 
 const Projects = () => {
   return (
-    <section className="bg-[#111827]">
+    <section name="projects" className="bg-[#111827]">
       <div className="container mx-auto pb-2">
         <h2 className="text-3xl text-white font-bold ml-10 mb-5 pt-16">
           Projects

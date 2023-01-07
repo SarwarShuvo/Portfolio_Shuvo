@@ -18,7 +18,7 @@ const sendEmail = (e) => {
     
     return (
         // <!-- component --> 
-        <section id="contact" class="relative w-full pb-10 bg-[#111827] text-white">
+        <section name="contact" class="relative w-full pb-10 bg-[#111827] text-white">
             <h1 class="text-4xl text-white p-4 pl-10 font-bold tracking-wide">
                 Contact
             </h1>
