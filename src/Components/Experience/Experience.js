@@ -15,30 +15,30 @@ const Experience = () => {
 
           <div className="flex flex-col items-center max-w-sm p-6 bg-pink-50 border drop-shadow-lg border-gray-200 rounded-lg hover:bg-white hover:shadow-[0px_0px_20px_3px_#D22B2B]">
             <img className="h-16" src={image3} alt="" />
-            <h5 class="mb-5 mt-2 text-md font-[ZenDots] whitespace-nowrap tracking-widest font-extrabold text-black dark:text-white underline underline-offset-8">
-              SOFTWARE ENGINEER
+            <h5 class="mb-5 mt-2 text-md font-[ZenDots] whitespace-nowrap tracking-widest font-extrabold text-black underline underline-offset-8">
+             Jr Software Engineer
             </h5>
-            <small class="font-normal text-gray-700">
-              Janata Bank Ltd. <br />Gazipur, Dhaka
+            <small class="font-normal text-gray-700 text-center">
+              Letheio <br /> Dhaka, Bangladesh
             </small>
           </div>
 
 
           <div className="flex flex-col items-center max-w-sm p-6 bg-pink-50 border drop-shadow-lg border-gray-200 rounded-lg hover:bg-white hover:shadow-[0px_0px_20px_3px_#D22B2B]">
             <img className="h-16" src={image2} alt="" />
-            <h5 class="mb-5 mt-2 text-md font-[ZenDots] whitespace-nowrap tracking-widest font-extrabold text-black dark:text-whiteF ">
+            <h5 class="mb-5 mt-2 text-md font-[ZenDots] whitespace-nowrap tracking-widest font-extrabold text-black ">
             Digital Marketing <span className="flex flex-wrap underline underline-offset-8">& SEO Executive</span>
             </h5>
-            <small class="font-normal text-gray-700">
-              Janata Bank Ltd. <br />Gazipur, Dhaka
+            <small class="font-normal text-gray-700 text-center">
+            trioQuad <br />Dhaka, Bangladesh
             </small>
           </div>
 
 
           <div className="flex flex-col items-center max-w-sm p-6 bg-pink-50 border drop-shadow-lg border-gray-200 rounded-lg hover:bg-white hover:shadow-[0px_0px_20px_3px_#D22B2B]">
             <img className="h-16" src={image} alt="" />
-            <h5 class="mb-5 mt-2 text-md font-[ZenDots] whitespace-nowrap tracking-widest font-extrabold text-black dark:text-white underline underline-offset-8">
-              INTERNSHIP
+            <h5 class="mb-5 mt-2 text-md font-[ZenDots] whitespace-nowrap tracking-widest font-extrabold text-black underline underline-offset-8">
+              Internship
             </h5>
             <small class="font-normal text-gray-700">
               Janata Bank Ltd. <br />Gazipur, Dhaka

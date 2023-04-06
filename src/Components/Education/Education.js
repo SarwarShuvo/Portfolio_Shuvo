@@ -19,7 +19,7 @@ const Education = () => {
             <h5 class="mb-5 mt-2 text-md font-[ZenDots] whitespace-nowrap tracking-widest font-bold text-white underline underline-offset-8">
               Secondary School Certificate
             </h5>
-            <small class="font-normal text-slate-100">
+            <small class="font-normal text-slate-100 text-center">
               Rani Bilashmoni Government Boys' High School
             </small>
           </div>

@@ -9,7 +9,7 @@ const Projects = () => {
     <section name="projects" className="bg-[#111827]">
       <div className="container mx-auto pb-2">
         <h2 className="text-3xl text-white font-bold ml-10 mb-5 pt-16">
-          Projects
+          Recent Projects
         </h2>
         
         {/* Project List  */}
@@ -32,7 +32,7 @@ const Projects = () => {
                       <li class="m-1">
                         <a
                           class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
-                          href="#0"
+                          href="https://sjshuvo.netlify.app/" target="blank"
                         >
                           Website
                         </a>
@@ -73,7 +73,7 @@ const Projects = () => {
                       <li class="m-1">
                         <a
                           class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
-                          href="#0"
+                          href="https://www.letheio.com/" target="blank"
                         >
                           Website
                         </a>
@@ -114,7 +114,7 @@ const Projects = () => {
                       <li class="m-1">
                         <a
                           class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
-                          href="#0"
+                          href="https://github.com/SarwarShuvo" target="blank"
                         >
                           Website
                         </a>
@@ -155,7 +155,7 @@ const Projects = () => {
                       <li class="m-1">
                         <a
                           class="inline-flex text-center text-gray-100 py-1 px-3 rounded-full bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
-                          href="#0"
+                          href="https://github.com/SarwarShuvo" target="blank"
                         >
                           Website
                         </a>
